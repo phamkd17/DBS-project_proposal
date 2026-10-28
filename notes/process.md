@@ -57,3 +57,17 @@ want (sweeter, crispier, more tender...). This is the possible differentiator
 from Paprika / Mela.
 
 Open: hasn't said yet what they use today, or a specific recent time this happened.
+
+**Q2 (Idea A). A specific recent dish — did you look for answers, and where?**
+
+> I want the app to teach the user and think creatively about how to make the dish
+> to their liking. Most people would blindly follow a recipe. If they have to pull
+> out their phones to research more, they will get annoyed and not do it.
+
+Takeaway: the hypothesis is **friction**. The knowledge exists (Serious Eats,
+ChatGPT), but nobody stops mid-cook to research it, so it has to be in the step
+itself. Goal: teach + encourage creative customization to the cook's own taste.
+
+To verify in user interviews: do people actually skip research mid-cook? Do they
+wish they'd customized? (Still no concrete personal example — "most people" is a
+hypothesis, not evidence yet.)
