@@ -42,4 +42,18 @@ Link between them: restaurant dishes → inspiration for recipe development.
 
 ### Questions explored
 
-_In progress._
+**Q1 (Idea A). Where does this come from? What's missing when you cook from a recipe?**
+
+> You blindly follow instructions without really understanding how different
+> components affect the end result. A common one: "sauté onions until translucent."
+> But what if I like a more caramelized flavor? It could add variation and a food
+> science bit: if you want a sweet profile, cook the onions on low heat to draw out
+> the sugars.
+
+Takeaway: the core problem isn't storing recipes, it's that recipes give
+instructions without the *why* or the *dials* you can turn. Each step could
+explain what it does to the result and how to change it to get the result you
+want (sweeter, crispier, more tender...). This is the possible differentiator
+from Paprika / Mela.
+
+Open: hasn't said yet what they use today, or a specific recent time this happened.
