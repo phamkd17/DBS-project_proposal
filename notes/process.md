@@ -71,3 +71,50 @@ itself. Goal: teach + encourage creative customization to the cook's own taste.
 To verify in user interviews: do people actually skip research mid-cook? Do they
 wish they'd customized? (Still no concrete personal example — "most people" is a
 hypothesis, not evidence yet.)
+
+**Q3. Who is this for, specifically?**
+
+> The main user of this app is me, a passionate home cook. I want to store recipes
+> that I like for inspiration. I also want to understand the science behind why
+> recipe authors write the way they do, select certain ingredients, and use certain
+> techniques. I will also use it to track recipe development and experimental dishes
+> or trials. I want a mood board–like logbook to capture inspiration from
+> places/restaurants I have tried or recipes I have seen elsewhere.
+>
+> Another user is my grandmother, who cooks daily and just wings it. She has a very
+> strong intuition for how to make a dish spectacular with the items she has. I want
+> the app to be easy for her to use so that she can share her recipes with the
+> younger generation. It has to be easy for her to log items, as she is not as
+> tech-savvy. There have been many times when my cousins and I have asked, "Do you
+> remember the yogurt Grandma made?" We discuss it, but no one knows how to
+> recreate it.
+>
+> Other users are my friends, who are new to the culinary world and blindly follow
+> recipes as procedures. The app needs to make it easy for them to learn techniques
+> and food science so they do not get overwhelmed. It should be all-encompassing so
+> they do not have to use multiple tools to understand something.
+>
+> The last user is anyone who just wants to follow certain cooks because they like
+> a particular person's style and taste. This person could have any level of
+> culinary skill.
+>
+> I want this app to be educational for new users, an experimental logbook for more
+> experienced cooks, and an easy way for people to capture and share ideas, even if
+> they are not tech-savvy.
+
+Four user types identified:
+
+| User | Need | Implies |
+|---|---|---|
+| Me (passionate home cook) | Understand the why; log experiments/trials; inspiration mood board (incl. restaurants) | Food science annotations, versioned trials, inspiration board |
+| Grandma (intuitive, not tech-savvy) | Capture recipes she wings so family can recreate them | Very low-effort capture (voice/photo?), AI turns it into a structured recipe |
+| Friends (beginners) | Learn technique without being overwhelmed or juggling tools | In-step explanations, progressive detail |
+| Followers (any level) | Follow a cook whose taste they like | Profiles, following, feed — social layer |
+
+Strongest concrete evidence so far: **"Do you remember the yogurt Grandma made?"**
+— a real, recurring family problem with a real person to interview.
+
+Reachable interviewees: grandma, cousins, beginner friends, myself.
+
+Concern: four users with different needs is too much for ~3 weeks. Need a primary
+user for v1.
