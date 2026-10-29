@@ -139,3 +139,53 @@ Why: it keeps us connected, and designing for both ends of the tech-skill range
 
 Deferred: beginner friends (learning mode), followers (social layer), and
 restaurant journal → candidates for v2 / ambitious version.
+
+**Q5. How does grandma use technology today?**
+
+> She uses a smartphone and is able to take pictures. My aunt can help her write
+> down or type out her techniques. Voice input is also very useful, as she can speak
+> while she cooks. Let's assume English is the main language. It would be cool if
+> she could describe what she is doing and the app could automatically convert that
+> into a recipe with instructions and explanations of why she took each step, based
+> on food science or best practices from experience.
+
+Takeaway — the core v1 flow is taking shape:
+
+1. Grandma narrates while she cooks (voice), snaps photos. Aunt can help.
+2. App transcribes and turns the narration into a structured recipe: ingredients,
+   steps, amounts.
+3. Each step gets a **"why"**: the food science or best practice behind what she did.
+4. I (and cousins) can read it, recreate it, and log our own trials.
+
+Constraints: English for v1. Smartphone + camera available. Aunt is a possible
+helper — the capture flow may have a second operator.
+
+### Research: similar products
+
+Voice-to-recipe capture for grandparents **already exists**, so capture alone
+isn't the differentiator:
+
+- [Touta](https://touta.app/) — "record grandma's recipes," AI transcribes voice + handwritten cards. Free, iOS/web.
+- [Recipe Diary](https://recipediary.app/) — voice note → recipe card, editable.
+- [CookNest](https://cooknest.app/en/features/dictation) — dictation → recipe (PRO tier).
+- [Recipio](https://recipio.app/knowledge/add-recipe-by-voice) — voice entry, review before saving.
+- Several DEV posts of people building this for their own grandmother
+  ([1](https://dev.to/saurav10codes/i-built-a-platform-for-my-grandma-and-others-so-that-they-can-upload-their-voice-notes-for-a-545),
+  [2](https://dev.to/shivamgravity/my-dadis-recipes-were-trapped-in-voice-notes-so-i-built-her-an-ai-cookbook-44g4)).
+- Lesson from [SayChef](https://dev.to/saychef/building-a-voice-first-ai-recipe-manager-lessons-i-learned-k1b):
+  the hard problem is messy natural speech, not speech recognition.
+
+None of these mention explaining **why** each step is done, resolving vague
+amounts ("a handful," "until it smells right"), or a logbook of trials against the
+original. That's where this project can stand apart.
+
+### Research: speech-to-text options (free tiers, approximate — verify on vendor pages)
+
+- **Groq (hosted Whisper)** — ongoing free plan with rate limits (~2,000 req/day).
+- **Deepgram** — one-time $200 credit, no card.
+- **AssemblyAI** — one-time $50 credit, no card.
+- **Browser Web Speech API** — free, no key, but quality/browser support varies.
+- OpenAI — no standing free tier.
+
+Sources: [DEV free quotas (Oct 2026)](https://dev.to/unicodefawn/free-speech-to-text-and-text-to-speech-api-quotas-oct-2026-with-the-catches-17hg),
+[Spokenly free STT limits](https://spokenly.app/blog/free-speech-to-text-apis).
