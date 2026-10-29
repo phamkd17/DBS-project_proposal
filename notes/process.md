@@ -224,3 +224,16 @@ Worked example for the yogurt (food science to verify):
   with the light on, a cooler with warm water, etc.
 - "Sugar to your liking" is a dial: added before incubating it also feeds the
   cultures; after, it's just sweetness.
+
+**Q7. How will I know it works? Which dishes for v1?**
+
+**Success test (v1):** A cousin who's never made it follows the app's version of
+grandma's yogurt, grandma tastes it, and says it's hers.
+
+**v1 dishes:** yogurt, flan, tomato tofu.
+
+Note: a good spread for testing. Yogurt and flan are both precise
+temperature/protein dishes (culture temperature; custard setting, water bath,
+caramel) — strong food-science content. Tomato tofu is a savory stovetop dish
+cooked by feel — tests how the app handles "wing it" cooking and
+"to your liking" seasoning.
