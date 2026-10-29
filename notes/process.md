@@ -237,3 +237,29 @@ temperature/protein dishes (culture temperature; custard setting, water bath,
 caramel) — strong food-science content. Tomato tofu is a savory stovetop dish
 cooked by feel — tests how the app handles "wing it" cooking and
 "to your liking" seasoning.
+
+**Q8. Scope sort — what's in v1, v2, out?**
+
+Agreed with the proposed sort, with one change:
+
+> Instead of restaurant journal I want to have something to capture inspiration so
+> I can develop recipes later.
+
+| Feature | Scope |
+|---|---|
+| Voice capture + photos (grandma/aunt) | **v1** |
+| Her words kept verbatim | **v1** |
+| AI: narration → structured recipe | **v1** |
+| Flagged ambiguities | **v1** |
+| Food science "why" per step | **v1** |
+| Sign up + share a recipe with family | **v1** |
+| **Inspiration capture** (replaces restaurant journal) | v2 (TBD) |
+| Portion scaling | v2 |
+| Trial logbook vs. original | v2 |
+| Nutrition label agent | v2 or out |
+| Import from PDF / web / cookbook photo | v2 or out |
+| Restaurant journal + Google Maps sharing | **Out** → ambitious version |
+| Beginner learning mode, following cooks | **Out** → ambitious version |
+
+Note: inspiration capture could reuse the same capture pipeline as grandma's
+narration (photo + voice note), just tagged as "inspiration" instead of "recipe."
