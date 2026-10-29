@@ -263,3 +263,29 @@ Agreed with the proposed sort, with one change:
 
 Note: inspiration capture could reuse the same capture pipeline as grandma's
 narration (photo + voice note), just tagged as "inspiration" instead of "recipe."
+
+**Q9. The last time something inspired a dish idea?**
+
+> I recently saw an inspiring example: a chef deeply caramelized onions until they
+> were almost as caramelized as those used in French onion soup. He then dehydrated
+> them and used them to top buttered bread. They could also be added to burgers and
+> other dishes. I want to be able to document this to capture his creativity so I
+> can later develop something based on the concept of dehydrated caramelized onions.
+
+Takeaway: an inspiration is a **technique or concept**, not a recipe. An entry
+needs:
+
+- **The concept** — "deeply caramelized onions, then dehydrated"
+- **Source** — who/where (chef, video, restaurant), photo or link
+- **Where it could go** — buttered bread, burgers, ...
+- **The science** (AI-added) — long caramelization builds sweetness and browned
+  flavor; dehydrating concentrates it and makes it crunchy and shelf-stable
+- **Later → a trial** — the entry becomes the starting point for recipe development
+
+(Callback to Q1: same onions, same "what dial am I turning" idea.)
+
+Open: didn't say what I did with it at the time or whether I went back to it —
+good question for my own user interview.
+
+**Scope: inspiration capture → v2.** The v1 success test is grandma's yogurt; this
+builds on the same capture + science pipeline once it works.
