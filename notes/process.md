@@ -189,3 +189,38 @@ original. That's where this project can stand apart.
 
 Sources: [DEV free quotas (Oct 2026)](https://dev.to/unicodefawn/free-speech-to-text-and-text-to-speech-api-quotas-oct-2026-with-the-catches-17hg),
 [Spokenly free STT limits](https://spokenly.app/blog/free-speech-to-text-apis).
+
+**Q6. What does grandma actually say? What should the app do with vague parts?**
+
+> One phrase she used was, "Use a whole jug of whole milk and an entire small
+> container of Dannon yogurt, and add a bit of sugar to sweeten it to your liking.
+> Then put it in the incubator."
+>
+> I want the app to preserve her dialogue in the journal and convert it into a
+> recipe by adding food science details. For example, if you don't have a yogurt
+> maker, heat the milk to a certain temperature. [Clarify whether "Do boil" means
+> "Boil" or "Don't boil," and how this affects the proteins.]
+
+**Decision: two layers per recipe.**
+
+1. **Her words** — the original narration, kept verbatim in the journal. Never
+   overwritten.
+2. **The recipe** — structured version generated from it, with:
+   - **Resolved amounts** — "a whole jug" → gallon or half gallon? "a small
+     container of Dannon" → ~5.3 oz / 150 g. Brand/package sizes become real units.
+   - **Flagged ambiguities** — things the app must ask about rather than guess.
+     E.g. "do boil" vs. "don't boil" (could also be a transcription error), or
+     which size jug.
+   - **Why + alternatives** — the food science per step, and what to do if you're
+     missing something (no incubator → hold the milk at a set temperature another
+     way).
+
+Worked example for the yogurt (food science to verify):
+- Heating milk to ~180°F / 82°C (not necessarily a full boil) denatures the whey
+  proteins, which then bind with casein → thicker yogurt that weeps less whey.
+- Cooling to ~110°F / 43°C before adding the starter matters — too hot kills the
+  live cultures.
+- "Put it in the incubator" = hold at ~110°F for several hours. Without one: oven
+  with the light on, a cooler with warm water, etc.
+- "Sugar to your liking" is a dial: added before incubating it also feeds the
+  cultures; after, it's just sweetness.
