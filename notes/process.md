@@ -118,3 +118,24 @@ Reachable interviewees: grandma, cousins, beginner friends, myself.
 
 Concern: four users with different needs is too much for ~3 weeks. Need a primary
 user for v1.
+
+**Q4. If only one person could use v1, who and why?**
+
+> The main users for V1 would be my grandma and me because it is a way for us to
+> stay connected. In addition, there is a dichotomy between our technological
+> skills: I understand technology well, but she does not. However, she is an expert
+> cook. If we can capture both of our capabilities, the app will be useful for
+> everyone.
+
+**Decision: v1 users = me + grandma.** One product with two sides:
+
+- **Grandma — capture.** Expert cook, not tech-savvy. Must be able to log a dish
+  with almost no effort.
+- **Me — enrich + experiment.** Tech-savvy home cook. Turns captured dishes into
+  structured, recreatable recipes, adds the food science, logs my own trials.
+
+Why: it keeps us connected, and designing for both ends of the tech-skill range
+(expert cook / novice user, and the reverse) should cover the people in between.
+
+Deferred: beginner friends (learning mode), followers (social layer), and
+restaurant journal → candidates for v2 / ambitious version.
