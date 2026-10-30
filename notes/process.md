@@ -363,6 +363,22 @@ caramelized fish sauce). Grandma has signature techniques she reuses across dish
 → v2 / ambitious: a library of *Grandma's techniques* linked from every recipe
 that uses them.
 
+Third real sample: **yogurt** → `evals/samples/yogurt.md`. Two big findings:
+
+- **"small 10 in yogurt container"** is almost certainly "Dannon" mangled by
+  dictation — the exact detail (starter brand/strain) the cousin said made their
+  yogurt fail. Dictation errors don't just garble words; they can delete the
+  secret ingredient.
+- **No cooling step.** She heats until steaming, then adds the yogurt. Steaming
+  milk is too hot for live cultures. A literal transcription would produce a
+  recipe that fails. The AI must notice the *missing* step and ask.
+
+This makes the success test meaningful: the cousin can only pass it if the app
+catches both.
+
+Eval set before the build starts: **3 real samples** (tomato tofu, pork mango
+soup, yogurt).
+
 ## Stage 4 — Roadmap
 
 _Drafting._
