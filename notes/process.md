@@ -490,7 +490,7 @@ this class project.
 
 **Q21. One-line description + name**
 
-Working name: **Phamtastic Culinary Lab** → now considering **Culinary Labbook**.
+**Decision: name = Culinary Lab Book.** (Earlier: Phamtastic Culinary Lab → Culinary Labbook.)
 
 Why "Labbook" fits: a scientist's lab notebook records each experiment and why
 it worked — and Grandma already keeps *"a little logbook of all the dishes I've
