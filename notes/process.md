@@ -516,3 +516,16 @@ Feedback on v0: "users" doesn't say who; the problem (recipes are lost
 because the cook's intuition and reasons never get written down) is implied, not
 stated; "concept generation" is the v2 inspiration feature — keep it out of the
 one-liner or make it secondary.
+
+**Q22. What should the one-liner center on?** → **Grandma's dictation (v1).**
+Experiments/inspiration stay in v2 and the ambitious version.
+
+### Draft 1 of the page — `index.html`
+
+Built from these notes and the interview quotes (verbatim). Sections: one-liner +
+"Do you remember the yogurt" quote → the problem → how it works (yogurt
+walkthrough: her words → the app asks → recipe with labeled why → family test)
+→ users + what they told me → focus: AI + eval checks → roadmap → tech stack.
+
+**Needs my review, line by line**, before publishing — especially the one-liner
+wording, which still uses the bracket phrasing from the option I picked.
