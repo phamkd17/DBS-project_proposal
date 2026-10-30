@@ -324,3 +324,13 @@ dictation errors**, which is exactly where "do boil" vs. "don't boil" comes from
 Implication for v1: the input can be **dictated text** (pasted or typed via the
 phone's built-in dictation), so the app may not need its own speech-to-text in v1.
 The AI's job starts at messy text → recipe. In-app audio recording can come later.
+
+**Q14. Can you get 2–3 of her actual dictated notes?**
+
+Confirmed by example: provided Grandma's real dictated **tomato tofu** note.
+Saved verbatim as the first eval case: `evals/samples/tomato-tofu.md`, with a list
+of what makes it hard and the expected-behavior checks.
+
+Biggest new finding: **"just about that much"** — she gestured. Some amounts
+can't be recovered from text at all, so the app *must* be able to send questions
+back to her.
