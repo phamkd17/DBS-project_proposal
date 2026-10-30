@@ -347,9 +347,10 @@ back to her.
    asked. Grandma just talks.
 2. **Create recipe** — whenever the user is ready, the app drafts the recipe and
    asks its verification questions ("How much fish sauce?").
-3. **Unknown → estimate.** If the user doesn't know, the app guesses — and the
-   guess is **visibly labeled as an estimate**, so a cousin can tell Grandma's
-   amounts from the AI's.
+3. **Unknown → suggestion.** If the user doesn't know, the app offers a
+   **suggestion** (wording correction from me: "suggestions, not guesses") that
+   the user can accept or edit. Accepted suggestions stay **visibly labeled as
+   suggested**, so a cousin can tell Grandma's amounts from the AI's.
 
 This keeps the burden off Grandma and matches the existing family workflow
 (she talks, someone else writes it up later).
