@@ -478,3 +478,14 @@ Sources: [Gemini rate limits](https://ai.google.dev/gemini-api/docs/rate-limits)
 [Gemini free tier 2026](https://www.aifreeapi.com/en/posts/google-gemini-api-free-tier),
 [Free LLM API tiers 2026](https://ianlpaterson.com/blog/free-llm-api-2026/),
 [OpenRouter free API comparison](https://openrouter.ai/blog/tutorials/free-llm-apis-compared/).
+
+**Q20. OK with the free tier possibly using recipes to improve Google's products?**
+
+> Gemini free tier should work.
+
+**Decision: Gemini API free tier (Flash).** Accepted the data-use tradeoff for
+this class project.
+
+## Stage 6 — Writing the page
+
+_Next: one-line description, in my words._
