@@ -390,4 +390,42 @@ remotely, and it should move **earlier** — to week 2 (Nov 17–24), right afte
 v1 — so that if the cousin's yogurt fails, there's still a week to fix the AI
 before the fair.
 
-_Drafting — pending how the test can run remotely._
+**Q17. How does the test run remotely?**
+
+Decision: **I make a test batch first** as a dry run from the app's recipe. Then a
+cousin runs the real test with Grandma, who tastes it. Photos/video sent to me.
+
+### Roadmap (draft v1)
+
+**Before Nov 10** (alongside Assignment 6)
+- [x] Collect 3 real dictations (tomato tofu, pork mango soup, yogurt)
+- [x] Write expected-behavior checks for each (`evals/samples/`)
+- [ ] Create accounts, set spending limits and alerts
+
+**Week 1 · Nov 10–17 → v1** (works end to end)
+- Riskiest first (days 1–2): dictated text → draft recipe + questions, run
+  against all 3 samples
+- Sign up / log in
+- Save a transcript (paste, or the phone's dictation mic) — stored verbatim
+- "Create recipe": questions → answers or suggestions → recipe
+- Recipe page: her words + recipe + the why (hers vs. AI's, labeled)
+- Share with family so a cousin can open it
+
+**Week 2 · Nov 17–24**
+- **My test batch** of yogurt from the app's recipe (dry run) → fix what breaks
+- **Cousin's batch → Grandma tastes it** (the success test), photos/video
+- Evals: scored runs against the 3 samples, prompt improvements
+- The why organized around the five tastes; dials (onions 5 vs. 7 min,
+  tofu creamy vs. crispy, yogurt 8 vs. 12 h)
+- Photos on entries
+
+**Week 3 · Nov 24–Dec 1 → v2 at the fair**
+- Fixes from the success test (re-test if it failed)
+- Trial logbook
+- Inspiration capture (photo + note, same pipeline)
+- Polish for the fair
+
+**Ambitious version** (not this quarter): Grandma's technique library;
+digitizing the pantry notebook from photos; restaurant journal + maps; beginner
+learning mode; following cooks; nutrition labels; in-app audio recording; portion
+scaling.
