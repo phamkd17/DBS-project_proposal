@@ -444,10 +444,37 @@ Supabase MCP, Clerk CLI). Start from what I know; add only what the idea needs.
 | Data | Supabase Postgres, RLS on every table, scoped to the family | Transcripts (verbatim, never edited), recipes, questions/answers, suggestions (labeled). |
 | Photos (wk 2) | Supabase Storage | Same project, same RLS model. |
 | Background AI job | Supabase Edge Function + Realtime | A recipe takes a while to generate; the page shows "working on it" and updates on its own when done — the A5 pattern. |
-| AI | Model API with structured output + tool use (TBD — see Q19) | Recipe JSON schema; tools for unit conversion and package sizes ("small Dannon" → 150 g). |
+| AI | **Gemini API free tier (Flash model)**, via a swappable model layer (e.g. Vercel AI SDK) | Recipe JSON schema; tools for unit conversion and package sizes ("small Dannon" → 150 g). |
 | Evals | Script that runs `evals/samples/` through the pipeline and scores the checks | My AI focus: must-ask questions flagged, no silent amounts, her words unchanged, suggestions labeled. |
 | E2E test | Playwright | Family A can't see family B's recipes (as in A4). |
 
 **MCP servers / CLIs:** Supabase MCP (scoped to the project — tables, RLS,
 Edge Functions, logs), Clerk CLI (users, orgs), Vercel (deploy on push), GitHub
 CLI, Playwright MCP / Claude in Chrome (check the phone layout at 390px).
+
+**Q19. Model API?**
+
+Learned: my Claude plan covers *building* (Claude Code), not the deployed app's
+model calls — those need an API key with separate, per-token billing.
+
+**Decision: free-tier provider.**
+
+Research (Oct 2026, third-party figures conflict — verify in each console):
+- **Google Gemini API (Flash)** — ongoing free tier, no card. Roughly 10–15
+  requests/min and ~1,500/day reported; limits are per project and shown live in
+  AI Studio. Pro models reportedly removed from the free tier in 2026.
+  Supports structured output (JSON schema) and function calling.
+  **Catch:** free-tier content may be used to improve Google's products.
+- **Groq** — free plan on open models, ~1,000 requests/day but tight daily
+  token caps (~100K–200K tokens/day per model → maybe 20–40 recipes/day).
+- **OpenRouter `:free` models** — 50 requests/day until $10 in lifetime credits.
+- **Cerebras / Mistral** — reportedly card-gated trial / unpublished limits.
+
+Plan: **Gemini Flash free tier** as the default. Keep the model call behind one
+swappable layer so evals can compare providers/models later (e.g. free Gemini vs.
+a paid model on the cooling-step check) without rewriting the app.
+
+Sources: [Gemini rate limits](https://ai.google.dev/gemini-api/docs/rate-limits),
+[Gemini free tier 2026](https://www.aifreeapi.com/en/posts/google-gemini-api-free-tier),
+[Free LLM API tiers 2026](https://ianlpaterson.com/blog/free-llm-api-2026/),
+[OpenRouter free API comparison](https://openrouter.ai/blog/tutorials/free-llm-apis-compared/).
