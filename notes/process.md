@@ -529,3 +529,15 @@ walkthrough: her words → the app asks → recipe with labeled why → family t
 
 **Needs my review, line by line**, before publishing — especially the one-liner
 wording, which still uses the bracket phrasing from the option I picked.
+
+### Review 1 — top of the page
+
+My draft v2 of the one-liner: *"Culinary Lab Book helps chefs turn what they say
+while they cook into recipes that can be shared to inspire other cooks."*
+Feedback: "chefs" suggests professionals; "inspire" points at the out-of-scope
+followers user — the evidence is about **repeating** a dish.
+
+**Final one-liner:**
+
+> Culinary Lab Book helps cooks turn what they say while they cook into recipes
+> that can be shared for others to repeat.
