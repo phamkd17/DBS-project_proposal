@@ -552,3 +552,11 @@ her answers in step ②; only the 110°F number stays labeled as a suggestion.
 
 Quotes and takeaways approved. Clarified "I'm the opposite" → "I'm good with
 technology" (it was about tech skills, not cooking).
+
+### Review 4 — focus: AI
+
+Approved as is. The yogurt walkthrough already makes the "she left it out" point.
+
+### Review 5 — roadmap
+
+Checked against how long Assignments 4–5 took: "about right." Approved as is.
