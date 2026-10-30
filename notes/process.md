@@ -381,4 +381,13 @@ soup, yogurt).
 
 ## Stage 4 — Roadmap
 
-_Drafting._
+**Q16. Will I be with Grandma and cousins over Thanksgiving?**
+
+> No I will not be with my grandma and cousins.
+
+Implication: the success test can't depend on me being there. It has to run
+remotely, and it should move **earlier** — to week 2 (Nov 17–24), right after
+v1 — so that if the cousin's yogurt fails, there's still a week to fix the AI
+before the fair.
+
+_Drafting — pending how the test can run remotely._
