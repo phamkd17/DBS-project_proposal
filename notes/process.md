@@ -541,3 +541,9 @@ followers user — the evidence is about **repeating** a dish.
 
 > Culinary Lab Book helps cooks turn what they say while they cook into recipes
 > that can be shared for others to repeat.
+
+### Review 2 — how it works (yogurt walkthrough)
+
+Flow confirmed. Confirmed the app's questions were right: it **is** plain Dannon,
+and she **does** let the milk cool — *"She just left those out."* Page now shows
+her answers in step ②; only the 110°F number stays labeled as a suggestion.

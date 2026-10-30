@@ -26,6 +26,14 @@ Yogurt is a very simple dish you need about 1/2 gallon jug of milk and then one 
 | Conflicts with an earlier telling | Q6: "a whole jug of **whole** milk"; here: "about 1/2 gallon jug of milk" — milk type not stated this time |
 | Under-specified | "not flavored at all" (plain — but does it have live and active cultures?); number/size of jars |
 
+## Confirmed answers (from me, Oct 29)
+
+- The "10 in" container **is Dannon** — plain.
+- She **does let the milk cool** before adding the yogurt. She just left it out
+  of the dictation.
+
+So both "must ask" checks are confirmed as real gaps, not over-cautious ones.
+
 ## Cross-check with interviews
 
 - Grandma: *"Your grandfather likes it sour, so I let it ferment a little longer."*
