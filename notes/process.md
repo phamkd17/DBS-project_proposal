@@ -502,7 +502,17 @@ Draft one-liner (v0, my words):
 > App helps users generate repeatable recipes through dictation/note and concept
 > generation.
 
-Feedback to address: "users" doesn't say who; the problem (recipes are lost
+Draft v1:
+
+> Culinary Lab Book helps cooks turn experiments and inspirations into
+> repeatable recipes.
+
+Feedback on v1: "repeatable recipes" is the right outcome. But "experiments and
+inspirations" describes the v2 features (trial logbook, inspiration capture),
+while v1 is Grandma's dictated recipes + the why. The line and the roadmap need
+to match. "Cooks" is still broad, and the "because today…" is missing.
+
+Feedback on v0: "users" doesn't say who; the problem (recipes are lost
 because the cook's intuition and reasons never get written down) is implied, not
 stated; "concept generation" is the v2 inspiration feature — keep it out of the
 one-liner or make it secondary.
