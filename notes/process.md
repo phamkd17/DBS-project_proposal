@@ -490,7 +490,12 @@ this class project.
 
 **Q21. One-line description + name**
 
-Working name: **Phamtastic Culinary Lab**
+Working name: **Phamtastic Culinary Lab** → now considering **Culinary Labbook**.
+
+Why "Labbook" fits: a scientist's lab notebook records each experiment and why
+it worked — and Grandma already keeps *"a little logbook of all the dishes I've
+tried to make,"* which the aunt copies into the pantry notebook. Lab (science,
+trials) + book (her logbook) in one word.
 
 Draft one-liner (v0, my words):
 
