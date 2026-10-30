@@ -334,3 +334,26 @@ of what makes it hard and the expected-behavior checks.
 Biggest new finding: **"just about that much"** — she gestured. Some amounts
 can't be recovered from text at all, so the app *must* be able to send questions
 back to her.
+
+**Q15. Who answers the app's questions, and how?**
+
+> I say the app saves the transcript and when the user is ready to create the
+> recipe from the transcript, the questions will be asked to the user for
+> verification. If the user doesn't know, the app will make its own guesses.
+
+**Decision: capture and recipe creation are two separate moments.**
+
+1. **Capture** — dictate (or paste) → transcript saved verbatim. Nothing else
+   asked. Grandma just talks.
+2. **Create recipe** — whenever the user is ready, the app drafts the recipe and
+   asks its verification questions ("How much fish sauce?").
+3. **Unknown → estimate.** If the user doesn't know, the app guesses — and the
+   guess is **visibly labeled as an estimate**, so a cousin can tell Grandma's
+   amounts from the AI's.
+
+This keeps the burden off Grandma and matches the existing family workflow
+(she talks, someone else writes it up later).
+
+## Stage 4 — Roadmap
+
+_Drafting._

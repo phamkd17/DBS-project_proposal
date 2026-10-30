@@ -46,6 +46,10 @@ To make the tomato tofu I'm gonna cut these tomatoes into little pieces dice the
 - [ ] How many onions?
 - [ ] Roughly how much oil for deep-frying, and how much water?
 
+**When a question is skipped ("I don't know")**
+- [ ] The app fills in a reasonable estimate (e.g. fish sauce ≈ 1–2 tbsp).
+- [ ] Every estimate is visibly labeled as an estimate, never shown as Grandma's.
+
 **Dials and variations**
 - [ ] Onions: 5 min → soft and golden; 7 min → sweeter.
 - [ ] Tofu: lightly fried → creamier; deep golden → crispy and absorbs more sauce.
