@@ -488,4 +488,16 @@ this class project.
 
 ## Stage 6 — Writing the page
 
-_Next: one-line description, in my words._
+**Q21. One-line description + name**
+
+Working name: **Phamtastic Culinary Lab**
+
+Draft one-liner (v0, my words):
+
+> App helps users generate repeatable recipes through dictation/note and concept
+> generation.
+
+Feedback to address: "users" doesn't say who; the problem (recipes are lost
+because the cook's intuition and reasons never get written down) is implied, not
+stated; "concept generation" is the v2 inspiration feature — keep it out of the
+one-liner or make it secondary.
