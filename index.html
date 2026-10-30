@@ -322,13 +322,13 @@
           <tr><td>Capture</td><td>The phone's built-in dictation</td><td>Grandma already uses it, so v1 needs no speech-to-text service.</td></tr>
           <tr><td>Sign-in</td><td>Clerk, with organizations as families</td><td>Recipes are shared within a family, by invite.</td></tr>
           <tr><td>Data</td><td>Supabase, with row-level security</td><td>Her words, recipes, questions, and suggestions, visible only to her family.</td></tr>
-          <tr><td>AI job</td><td>Supabase Edge Function + Realtime</td><td>A recipe takes a moment to write; the page updates on its own when it's ready.</td></tr>
+          <tr><td>AI call</td><td>A Next.js server route</td><td>Keeps the Gemini key off the phone. The simplest option for v1; it can move to a background worker later if recipes get slow to write.</td></tr>
           <tr><td>Model</td><td>Gemini API (free tier)</td><td>Structured output and tool use (unit conversion, package sizes), behind a layer I can swap to compare models.</td></tr>
           <tr><td>Testing</td><td>Evals + Playwright</td><td>Evals check the AI on her real dictations; Playwright checks that one family can't see another's recipes.</td></tr>
         </tbody>
       </table>
     </div>
-    <p><strong>MCP servers and CLIs:</strong> Supabase MCP (tables, security, functions, logs), Clerk CLI (users and families), Vercel (deploys on push), GitHub CLI, and Playwright MCP to check the phone layout.</p>
+    <p><strong>MCP servers and CLIs:</strong> Supabase MCP (tables, security, logs), Clerk CLI (users and families), Vercel (deploys on push), GitHub CLI, and Playwright MCP to check the phone layout.</p>
   </section>
 
 </main>

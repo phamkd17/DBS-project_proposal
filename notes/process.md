@@ -560,3 +560,10 @@ Approved as is. The yogurt walkthrough already makes the "she left it out" point
 ### Review 5 — roadmap
 
 Checked against how long Assignments 4–5 took: "about right." Approved as is.
+
+### Review 6 — tech stack
+
+**Decision: simplify the AI job for v1.** Call Gemini from a Next.js server route
+(key stays on the server; page shows a "working on it" state until it returns)
+instead of a Supabase Edge Function + Realtime. Move to a background worker later
+only if calls get slow. Rest of the stack approved.
