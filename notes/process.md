@@ -7,12 +7,12 @@ This log records decisions made during the interview process, stage by stage.
 
 ## Checklist (from the brief)
 
-- [ ] One static HTML page, hosted on Vercel
-- [ ] One-line description: the problem, and the user
-- [ ] What users told me (3+ interviews, in their words)
-- [ ] Focus (Holistic Journey / Design / Systems / AI) and why
-- [ ] Roadmap broken down to the fair (Nov 10 → Nov 17 v1 → Dec 1 v2)
-- [ ] Tech stack, MCP servers, CLIs, and why they fit
+- [ ] One static HTML page, hosted on Vercel — page done; deploy pending
+- [x] One-line description: the problem, and the user
+- [x] What users told me (3+ interviews, in their words)
+- [x] Focus (Holistic Journey / Design / Systems / AI) and why
+- [x] Roadmap broken down to the fair (Nov 10 → Nov 17 v1 → Dec 1 v2)
+- [x] Tech stack, MCP servers, CLIs, and why they fit
 
 ## Stage 1 — Choosing what to build
 
@@ -567,3 +567,12 @@ Checked against how long Assignments 4–5 took: "about right." Approved as is.
 (key stays on the server; page shows a "working on it" state until it returns)
 instead of a Supabase Edge Function + Realtime. Move to a background worker later
 only if calls get slow. Rest of the stack approved.
+
+### Review 7 — footer
+
+Name confirmed. All sections reviewed.
+
+## Stage 7 — Publish
+
+Deploying by importing this GitHub repo in the Vercel dashboard (as in
+Assignment 1), so every push redeploys.
