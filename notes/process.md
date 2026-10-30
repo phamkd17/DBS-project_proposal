@@ -355,6 +355,14 @@ back to her.
 This keeps the burden off Grandma and matches the existing family workflow
 (she talks, someone else writes it up later).
 
+Second real sample: **pork mango soup** → `evals/samples/pork-mango-soup.md`.
+New problem types: contradictions (mango 5 vs. 10 min), ranges, assumed knowledge
+("you know how to do that"), prepped-but-unused ingredients (green onions), and
+**cross-recipe techniques** ("you do the same technique" — chopstick oil test +
+caramelized fish sauce). Grandma has signature techniques she reuses across dishes
+→ v2 / ambitious: a library of *Grandma's techniques* linked from every recipe
+that uses them.
+
 ## Stage 4 — Roadmap
 
 _Drafting._
