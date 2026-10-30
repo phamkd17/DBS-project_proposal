@@ -547,3 +547,8 @@ followers user — the evidence is about **repeating** a dish.
 Flow confirmed. Confirmed the app's questions were right: it **is** plain Dannon,
 and she **does** let the milk cool — *"She just left those out."* Page now shows
 her answers in step ②; only the 110°F number stays labeled as a suggestion.
+
+### Review 3 — users
+
+Quotes and takeaways approved. Clarified "I'm the opposite" → "I'm good with
+technology" (it was about tech skills, not cooking).
