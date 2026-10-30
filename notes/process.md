@@ -289,3 +289,25 @@ good question for my own user interview.
 
 **Scope: inspiration capture → v2.** The v1 success test is grandma's yogurt; this
 builds on the same capture + science pipeline once it works.
+
+## Stage 2 — Focus
+
+**Decision: AI.**
+
+> AI, because turning grandma's messy speech into recipes is the hard part. I want
+> to learn how to better leverage the AI.
+
+What going deep looks like here:
+
+- **Pipeline:** narration (+ photos) → transcript → structured recipe → resolved
+  amounts → flagged ambiguities → food-science "why" per step.
+- **Tools the model can call:** e.g. package-size lookup ("small Dannon" → 150 g),
+  unit conversion, a food-science reference.
+- **Evals:** a set of test narrations (grandma's real ones + tricky synthetic ones)
+  with checks: ambiguities get flagged rather than guessed ("do boil" / "don't
+  boil"), amounts resolve correctly, her words are preserved, science notes are
+  accurate.
+
+## Stage 3 — User interviews
+
+Draft questions in `notes/user-interviews.md`.
