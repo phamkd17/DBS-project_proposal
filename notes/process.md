@@ -429,3 +429,25 @@ cousin runs the real test with Grandma, who tastes it. Photos/video sent to me.
 digitizing the pantry notebook from photos; restaurant journal + maps; beginner
 learning mode; following cooks; nutrition labels; in-app audio recording; portion
 scaling.
+
+## Stage 5 — Tech stack (draft)
+
+Source: what I've already used in Assignments 2–5 (Next.js + Tailwind, Clerk,
+Supabase with RLS / Realtime / Edge Functions + Cron, Vercel, Playwright,
+Supabase MCP, Clerk CLI). Start from what I know; add only what the idea needs.
+
+| Piece | Choice | Why it fits *this* idea |
+|---|---|---|
+| App | Next.js + Tailwind on Vercel (Hobby) | Same as A2–A5. Mobile-first — Grandma and the aunt are on phones. |
+| Capture (v1) | The phone's built-in keyboard dictation into a text box | Grandma already uses it. No speech-to-text API, cost, or failure point in v1. |
+| Sign-in + family | Clerk, with **Organizations** as "families" | Sharing is by family: Grandma, aunt, cousins, me in one group; a cousin is invited, not given a link anyone can open. |
+| Data | Supabase Postgres, RLS on every table, scoped to the family | Transcripts (verbatim, never edited), recipes, questions/answers, suggestions (labeled). |
+| Photos (wk 2) | Supabase Storage | Same project, same RLS model. |
+| Background AI job | Supabase Edge Function + Realtime | A recipe takes a while to generate; the page shows "working on it" and updates on its own when done — the A5 pattern. |
+| AI | Model API with structured output + tool use (TBD — see Q19) | Recipe JSON schema; tools for unit conversion and package sizes ("small Dannon" → 150 g). |
+| Evals | Script that runs `evals/samples/` through the pipeline and scores the checks | My AI focus: must-ask questions flagged, no silent amounts, her words unchanged, suggestions labeled. |
+| E2E test | Playwright | Family A can't see family B's recipes (as in A4). |
+
+**MCP servers / CLIs:** Supabase MCP (scoped to the project — tables, RLS,
+Edge Functions, logs), Clerk CLI (users, orgs), Vercel (deploy on push), GitHub
+CLI, Playwright MCP / Claude in Chrome (check the phone layout at 390px).
