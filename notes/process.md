@@ -311,3 +311,16 @@ What going deep looks like here:
 ## Stage 3 — User interviews
 
 Draft questions in `notes/user-interviews.md`.
+
+**Q13. Does grandma have existing recordings? What does she record with?**
+
+> It's more of voice to transcribing.
+
+Interpretation (to confirm): she uses her phone's **voice dictation** —
+speech becomes text as she talks (e.g. into a notes app or a text message) —
+rather than saving audio files. So her existing "recordings" are **text with
+dictation errors**, which is exactly where "do boil" vs. "don't boil" comes from.
+
+Implication for v1: the input can be **dictated text** (pasted or typed via the
+phone's built-in dictation), so the app may not need its own speech-to-text in v1.
+The AI's job starts at messy text → recipe. In-app audio recording can come later.
