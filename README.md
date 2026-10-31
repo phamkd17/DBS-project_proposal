@@ -6,7 +6,7 @@ Design, Build, Ship · MPCS 51238 · Autumn 2026 · Khang Pham
 > that can be shared for others to repeat.
 
 The proposal is one static HTML page, with no framework or build step:
-[`index.html`](index.html). Live on Vercel: _URL added after deploy_.
+[`index.html`](index.html). Live on Vercel: **https://dbs-projectproposal.vercel.app**
 
 ## What's in this repo
 

@@ -7,7 +7,7 @@ This log records decisions made during the interview process, stage by stage.
 
 ## Checklist (from the brief)
 
-- [ ] One static HTML page, hosted on Vercel — page done; deploy pending
+- [x] One static HTML page, hosted on Vercel — https://dbs-projectproposal.vercel.app
 - [x] One-line description: the problem, and the user
 - [x] What users told me (3+ interviews, in their words)
 - [x] Focus (Holistic Journey / Design / Systems / AI) and why
@@ -576,3 +576,11 @@ Name confirmed. All sections reviewed.
 
 Deploying by importing this GitHub repo in the Vercel dashboard (as in
 Assignment 1), so every push redeploys.
+
+Deployed: **https://dbs-projectproposal.vercel.app** — returns 200 and the served
+page is byte-identical to `index.html`.
+
+## Submission (Google Classroom)
+
+1. Vercel URL: https://dbs-projectproposal.vercel.app
+2. GitHub URL: https://github.com/phamkd17/DBS-project_proposal
